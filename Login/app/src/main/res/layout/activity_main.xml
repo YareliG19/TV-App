@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/flowers"
+    android:weightSum="1"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_gravity="center"
+        android:layout_weight=".25">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/Titulo"
+            android:textColor="@color/black"
+            android:textSize="62sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".60"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/correo"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textColorHint="@color/red11"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Usuario"
+            android:inputType ="text"
+            android:padding="15dp"
+            android:textColorHint="@color/red11"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/contrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/contrasena"
+            android:inputType="textPassword"
+            android:textColorHint="@color/red11"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_acount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/red11"
+            android:text="@string/Registro"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"/>
+
+        <Button
+            android:id="@+id/btn_iniciar"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@color/red11"
+            android:text="@string/Iniciar"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignTop="@+id/btn_acount"
+            android:layout_toStartOf="@+id/btn_acount">
+
+        </Button>
+    </RelativeLayout>
+
+
+</LinearLayout>

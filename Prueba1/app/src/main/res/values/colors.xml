@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name = "rojo01"> #F6CECE </color>
+    <color name = "rojo02"> #F5A9A9 </color>
+    <color name = "rojo03"> #F78181 </color>
+    <color name = "rojo04"> #FA5858 </color>
+    <color name = "rojo05"> #F5A9A9 </color>
+    <color name = "rojo06"> #FE2E2E </color>
+    <color name = "rojo07"> #DF0101 </color>
+    <color name = "rojo08"> #B40404 </color>
+    <color name = "rojo09"> #8A0808 </color>
+    <color name= "rojo10" > #610B0B </color>
+
+    <color name = "naranja01"> #F79F81 </color>
+    <color name = "naranja02"> #FA8258 </color>
+    <color name = "naranja03"> #FE642E </color>
+    <color name = "naranja04"> #FF4000 </color>
+    <color name = "naranja05"> #DF3A01 </color>
+    <color name = "naranja06"> #B43104 </color>
+    <color name = "naranja07"> #8A2908 </color>
+    <color name = "naranja08"> #61210B </color>
+
+    <color name= "amarillo01"> #F2F5A9 </color>
+    <color name= "amarillo02"> #F3F781 </color>
+    <color name= "amarillo03"> #F4FA58 </color>
+    <color name= "amarillo04"> #F7FE2E </color>
+    <color name="amarillo05"> #FFFF00 </color>
+    <color name="amarillo06"> #D7DF01 </color>
+    <color name="amarillo07"> #AEB404 </color>
+    <color name="amarillo08"> #868A08 </color>
+    <color name="amarillo09"> #5E610B </color>
+    
+    <color name="verde01"> #BCF5A9 </color>
+    <color name="verde02"> #9FF781 </color>
+    <color name="verde03"> #82FA58 </color>
+    <color name="verde04"> #64FE2E </color>
+    <color name="verde05"> #40FF00 </color>
+    <color name="verde06"> #3ADF00 </color>
+    <color name="verde07"> #31B404 </color>
+    <color name="verde08"> #298A08 </color>
+    
+    <color name="azul01"> #A9A9F5 </color>
+    <color name="azul02"> #8181F7 </color>
+    <color name="azul03"> #5858FA </color>
+    <color name="azul04"> #2E2EFE </color>
+    <color name="azul05"> #0000FF </color>
+    <color name="azul06"> #0101DF </color>
+    <color name="azul07"> #0404B4 </color>
+    <color name="azul08"> #08088A </color>
+
+    <color name="morado01"> #D0A9F5 </color>
+    <color name="morado02"> #BE81F7 </color>
+    <color name="morado03"> #AC58FA </color>
+    <color name="morado04"> #9A2EFE </color>
+    <color name="morado05"> #8000FF </color>
+    
+    <color name="rosado01">#F5A9E1 </color>
+    <color name="rosado02"> #F781D8 </color>
+    <color name="rosado03"> #FA58D0 </color>
+    <color name="rosado04"> #FE2EC8 </color>
+    <color name="rosado05"> #FF00BF </color>
+    <color name="rosado06"> #DF01A5 </color>
+
+    <color name="blanco">#FFFFFF </color>
+    <color name="negro"> #000000 </color>
+    <color name="gris01"> #D8D8D8 </color>
+    <color name="gris02"> #BDBDBD </color>
+    <color name="gris03"> #848484 </color>
+
+
+
+
+
+</resources>
